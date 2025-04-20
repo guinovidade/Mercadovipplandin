@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado VIPP | Compre com Cashback 100%</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <h1>VIPP</h1>
+            <p>MERCADO VIPP</p>
+        </div>
+        <div class="hero">
+            <h1>PAGUE R$100 E GANHE <span>R$100 DE CASHBACK</span>!</h1>
+            <p>Compre produtos com desconto <strong>abaixo do preço de mercado</strong></p>
+            <a href="https://wa.me/5519993303100?text=Quero%20ser%20VIPP!" class="cta-button">👉 QUERO SER VIPP</a>
+        </div>
+    </header>
+
+    <!-- BENEFÍCIOS -->
+    <section class="benefits">
+        <div class="benefit-card">
+            <h3>💵 CASHBACK TOTAL</h3>
+            <p>Seus R$100 voltam como crédito para comprar</p>
+        </div>
+        <div class="benefit-card">
+            <h3>🛒 PREÇO DE ATACADO</h3>
+            <p>Calça de R$119 por R$34 | Perfume de R$299 por R$89</p>
+        </div>
+    </section>
+
+    <!-- COMPARATIVO DE PREÇOS -->
+    <section class="price-comparison">
+        <h2>VEJA QUANTO VOCÊ ECONOMIZA:</h2>
+        <table>
+            <tr>
+                <th>PRODUTO</th>
+                <th>OUTRAS LOJAS</th>
+                <th>VIPP</th>
+            </tr>
+            <tr>
+                <td>Calça Jeans</td>
+                <td>R$ 119,90</td>
+                <td class="vip-price">R$ 34,90</td>
+            </tr>
+            <tr>
+                <td>Perfume 100ml</td>
+                <td>R$ 299,90</td>
+                <td class="vip-price">R$ 89,90</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="categories">
+        <h2>TUDO QUE VOCÊ PRECISA EM UM SÓ LUGAR:</h2>
+        <div class="category-grid">
+            <div class="category-item">👗 Moda Feminina</div>
+            <div class="category-item">👔 Moda Masculina</div>
+            <div class="category-item">👶 Infantil</div>
+            <div class="category-item">💄 Beleza</div>
+            <div class="category-item">📱 Eletrônicos</div>
+            <div class="category-item">🐶 Pet</div>
+        </div>
+    </section>
+
+    <!-- WHATSAPP BUTTON (FIXO) -->
+    <a href="https://wa.me/5519993303100?text=Quero%20ser%20VIPP!" class="whatsapp-float">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© 2024 Mercado VIPP | <span id="counter">Últimas 8 vagas hoje!</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
